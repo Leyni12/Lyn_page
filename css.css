@@ -21,6 +21,12 @@ header nav {
 header nav a {
     text-decoration: none; 
     color: black; 
+    
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
 }
 
 .texto1 {
@@ -31,7 +37,28 @@ header nav a {
     text-align: left;
     box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
     line-height: 1.5;
-    
+
+}
+
+.saludo {
+    padding: 20px 0px 20px 12px ;
+    flex-direction: column;
+
+}
+
+.parrafo1 {
+    padding: 5px 0px 20px 12px ;
+    flex-direction: column;
+
+}
+
+.img1{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    margin-left: 20px;
+
 }
 
 
