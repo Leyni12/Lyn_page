@@ -6,15 +6,21 @@
 }
 
 
-
+.miNav {
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 header nav {
     background-color: #e5e3e3;
-    margin: 30px 50px 0 250px; 
-    padding: 20px;
+    margin: 30px 20px 20px 20px; 
+    padding: 20px 40px;
     border-radius: 50px;
+    width: 50%;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
     box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
 }
 
@@ -24,31 +30,45 @@ header nav a {
     
 }
 
-.contenedor {
+.principalContainer {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    
+    
 }
 
 .texto1 {
     background-color: #e5e3e3;
-    margin: 10px 400px 0 10px; 
-    padding: 0px 0px 0px 12px;
+    margin: 10px 10px 30px 30px; 
+    padding: 8px;
     border-radius: 50px;
     text-align: left;
     box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
     line-height: 1.5;
+    display: inline-block;
+    
+    
 
 }
 
 .saludo {
     padding: 20px 0px 20px 12px ;
+    
+    margin: 30px  50px 30px 60px ;
+    
     flex-direction: column;
 
 }
 
 .parrafo1 {
     padding: 5px 0px 20px 12px ;
+    margin: 0px  50px 30px 60px ;
+    text-align: left;
+   
     flex-direction: column;
+    justify-content: left;
+
+
 
 }
 
