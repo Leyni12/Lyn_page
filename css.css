@@ -33,20 +33,29 @@ header nav a {
 .principalContainer {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    
+    
+}
+
+.unirBloques {
+    display: flex;
+    flex-direction: column;
     
     
 }
 
 .texto1 {
     background-color: #e5e3e3;
-    margin: 10px 10px 30px 30px; 
-    padding: 8px;
+    margin: 150px 10px 0 150px; 
+    padding: 8px ;
     border-radius: 50px;
     text-align: left;
     box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
-    line-height: 1.5;
+    line-height: 1.5;/*interlineado*/
     display: inline-block;
-    
+    width: max-content;/*para que el ancho se ajuste al contenido*/
+    font-size: 13px;
     
 
 }
@@ -54,7 +63,7 @@ header nav a {
 .saludo {
     padding: 20px 0px 20px 12px ;
     
-    margin: 30px  50px 30px 60px ;
+    margin: 0 5px 5px 150px ;
     
     flex-direction: column;
 
@@ -62,7 +71,7 @@ header nav a {
 
 .parrafo1 {
     padding: 5px 0px 20px 12px ;
-    margin: 0px  50px 30px 60px ;
+    margin: 0px  50px 30px 150px ;
     text-align: left;
    
     flex-direction: column;
@@ -75,9 +84,12 @@ header nav a {
 .img1{
     width: 400px;
     height: auto;
-    display: block;
+    display: flex;
+    justify-content: center;   
+    padding: 40px 0px 20px 12px ; 
     margin: 20px auto;
-    margin-left: 20px;
+    margin-left: 250px;
+    border-radius: 10%;
 
 }
 
