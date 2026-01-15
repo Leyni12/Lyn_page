@@ -195,3 +195,59 @@ header nav a {
     border-radius: 13%;
     
  }
+
+ .proyectContainer {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center; 
+ }
+
+.unirProyect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+    }
+
+.proyectTitle {
+    padding: 20px 0px 20px 0px;
+    margin: 0;
+    text-align: center;
+    }
+
+.proyects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 20px;
+    justify-content: center;
+    }
+
+.contImag3 {
+    background-color:  #e5e3e3;
+    padding: 20px 20px 50px 20px;
+    color: blue
+    
+    
+}
+
+.img3, .img4, .img5 {
+    width: 400px;
+    height: 300px;
+}
+
+.contImag4 {
+    background-color:  #e5e3e3;
+    padding: 20px 20px 50px 20px;
+    
+}
+
+.contImag5 {
+    background-color:  #e5e3e3;
+    padding: 20px 20px 50px 20px;    
+}
+
+.leng{
+    color:black;
+}
