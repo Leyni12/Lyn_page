@@ -222,24 +222,26 @@ header nav a {
     flex-wrap:wrap;
     gap: 20px;
     justify-content: center;
+    text-align: center;
     }
 
 .contImag3 {
     background-color:  #e5e3e3;
     padding: 20px 20px 50px 20px;
-    color: blue
-    
-    
+    color: blue;
+    justify-content: center;
 }
 
 .img3, .img4, .img5 {
     width: 400px;
     height: 300px;
+    
 }
 
 .contImag4 {
     background-color:  #e5e3e3;
     padding: 20px 20px 50px 20px;
+    
     
 }
 
@@ -248,6 +250,12 @@ header nav a {
     padding: 20px 20px 50px 20px;    
 }
 
-.leng{
+.leng {
     color:black;
+    display: inline-block;
+    background-color: red;
+    padding: 5px;
+    justify-content: center;
+    
+    
 }
