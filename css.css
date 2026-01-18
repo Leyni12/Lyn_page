@@ -259,3 +259,33 @@ header nav a {
     
     
 }
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.name, .email, .description {
+    display: flex;    
+    margin: 10px 0 5px 0;
+    background-color: aquamarine;
+}
+
+.cajaName, .cajaEmail, .cajaMensaje {
+    
+    width: 300px;
+    padding: 10px;
+    border: none;/*ponemos none para que ya no este la caja y poder poner solo la linea adebajo*/
+    border-bottom: 2px solid #717171;/*border-bottom para que aparezca la linea solo adebajo*/
+    outline: none; /*para qie desaparezca la cajita negra*/
+
+}
+
+.boton{
+    background-color: aqua;
+    padding: 20px 40px;
+    margin: 15px 15px 15px 85px;
+    cursor: pointer;
+}
