@@ -267,23 +267,34 @@ header nav a {
     max-width: 500px;
     width: 100%;
     margin: 50px auto;
-    background-color: antiquewhite;
+    background-color: rgba(253, 245, 200);
     padding-top: 30px;
+    border-radius: 10%;
 }
 
-.name, .email, .description {
+/*.name, .email, .description {
     display: flex;  
     margin: 10px 0 5px 0;
     background-color: aquamarine;
-}
+}*/
 
 .cajaName, .cajaEmail, .cajaMensaje {
     
+    display: flex;  
+    margin: 10px 0 5px 0;
+
     width: 300px;
     padding: 10px;
     border: none;/*ponemos none para que ya no este la caja y poder poner solo la linea adebajo*/
     border-bottom: 2px solid #717171;/*border-bottom para que aparezca la linea solo adebajo*/
     outline: none; /*para qie desaparezca la cajita negra*/
+
+}
+
+.cajaName:focus, .cajaEmail:focus, .cajaMensaje:focus {
+    border-bottom: 2px solid blue; /*cambia de color la linea al darle click*/
+    transform: scale(1.02); /*agranda un poco la caja al darle click*/
+    
 
 }
 
@@ -300,4 +311,14 @@ header nav a {
 .boton:hover{
     background-color: rgb(105, 241, 105);
     transform: scale(1.05);
+}
+
+
+footer { 
+    text-align: center;
+    padding: 20px;
+    background-color: #e5e3e3;
+    margin-top: 50px;
+    box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
+    line-height: 1.5;/*interlineado*/
 }
