@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -9,20 +10,24 @@
 .miNav {
     display: flex;
     justify-content: flex-end;
+    background-color: rgb(248, 181, 241);
+    box-shadow: 2px 4px 15px 0 rgba(198, 16, 226, 0.834);
+    position: sticky;
+    top: 0;
 }
 
 
 header nav {
-    background-color: #eae6e6;
-    margin: 30px 20px 20px 20px; 
-    padding: 20px 40px;
+    
+    margin: 20px 10px 10px 10px; 
+    padding: 10px 20px;
     border-radius: 50px;
     width: 50%;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
-}
+    /*box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);*/
+
 
 header nav a {
     text-decoration: none; 
@@ -57,12 +62,12 @@ header nav a:hover {
 }
 
 .texto1 {
-    background-color: #e5e3e3;
+    background-color: rgb(248, 181, 241);
     margin: 150px 10px 0 150px; 
     padding: 8px ;
     border-radius: 50px;
     text-align: left;
-    box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
+    box-shadow: 2px 4px 15px 0 rgba(198, 16, 226, 0.834);
     line-height: 1.5;/*interlineado*/
     display: inline-block;
     width: max-content;/*para que el ancho se ajuste al contenido*/
@@ -127,12 +132,12 @@ header nav a:hover {
 
 
 .aboutMeTexto1 {
-    background-color:  #e5e3e3;
+    background-color: rgb(248, 181, 241);
     margin: 50px 10px 0 150px;
     padding: 8px ;
     border-radius: 50px;
     text-align: left;
-    box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
+    box-shadow: 2px 4px 15px 0 rgba(198, 16, 226, 0.834);
     line-height: 1.5;/*interlineado*/
     display: inline-block;
     width: max-content;/*para que el ancho se ajuste al contenido*/
@@ -167,31 +172,67 @@ header nav a:hover {
  .cajitas{
     display: flex;
     flex-direction: row;
-
+    
+    
  }
+
+ 
+
+ .unirCajitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 10px 10px 10px 160px ;
+    padding: 10px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(248, 181, 241);
+    border-radius: 10px;
+    transition: all 0.2s ease;   
+    
+ }
+
+ .unirCajitas:hover {
+    transform: scale(1.05);
+    
+ }
+
 
  .lenguaje{
     padding: 8px;
-    margin: 10px 10px 10px 150px ;
+    gap: 12px;
+    /*margin: 10px 10px 10px 150px ;*/
     text-align: left;
-    background-color: #ffffff;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(211, 211, 214);
-    border-radius: 10px;
+    
  }
+
 
  .educacion{
-    padding: 8px;
-    margin: 10px 10px 10px 100px ;
+    padding: 15px;
+    margin: 10px 70px 10px 100px ;
     text-align: left;
+    gap: 12px;
     background-color: #ffffff;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(211, 211, 214);
+    border-color: rgb(248, 181, 241);
     border-radius: 10px;
+    transition: all 0.2s ease;
  }
 
+    .educacion:hover {
+        transform: scale(1.05);
+        }
+
+ span{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 20px;
+ }
+ 
  .img2{
     width: 400px;
     height: auto;
@@ -234,40 +275,53 @@ header nav a:hover {
     text-align: center;
     }
 
-.contImag3 {
-    background-color:  #e5e3e3;
-    padding: 20px 20px 50px 20px;
-    color: blue;
-    justify-content: center;
-}
 
-.img3, .img4, .img5 {
-    width: 400px;
+
+.contImag3 {
+    background-color: rgb(248, 181, 241);
+    padding: 20px 20px 50px 20px;   
+    justify-content: center;
+    width: 300px;
     height: 300px;
+
+}
+.img3, .img4, .img5 {
+    width: 300px;
+    height: 200px;
     
 }
 
 .contImag4 {
-    background-color:  #e5e3e3;
+    background-color:  rgb(248, 181, 241);
     padding: 20px 20px 50px 20px;
-    
+    width: 300px;
+    height: 300px;
     
 }
 
 .contImag5 {
-    background-color:  #e5e3e3;
-    padding: 20px 20px 50px 20px;    
+    background-color:rgb(248, 181, 241)  ;
+    padding: 20px 20px 50px 20px;   
+    width: 300px;
+    height: 300px; 
 }
 
 .leng {
     color:black;
     display: inline-block;
-    background-color: red;
+    background-color:  rgb(228, 164, 246);
     padding: 5px;
     justify-content: center;
+    border-radius: 5px;
     
     
 }
+
+.contacto{
+    padding: 8px;
+    margin: 40px 0 0 0 ;
+    text-align: center;
+    }
 
 .contactContainer {
     display: flex;
@@ -275,8 +329,8 @@ header nav a:hover {
     align-items: center;
     max-width: 500px;
     width: 100%;
-    margin: 50px auto;
-    background-color: rgba(253, 245, 200);
+    margin: 30px auto;
+    background-color: rgb(228, 164, 246);
     padding-top: 30px;
     border-radius: 10%;
 }
@@ -291,7 +345,7 @@ header nav a:hover {
     
     display: flex;  
     margin: 10px 0 5px 0;
-
+    background-color: transparent;
     width: 300px;
     padding: 10px;
     border: none;/*ponemos none para que ya no este la caja y poder poner solo la linea adebajo*/
@@ -301,15 +355,20 @@ header nav a:hover {
 }
 
 .cajaName:focus, .cajaEmail:focus, .cajaMensaje:focus {
-    border-bottom: 2px solid blue; /*cambia de color la linea al darle click*/
+    border-bottom: 2px solid rgb(247, 15, 181); /*cambia de color la linea al darle click*/
     transform: scale(1.02); /*agranda un poco la caja al darle click*/
     
 
 }
 
+.cajaMensaje{
+    max-height: 50px;
+    resize: none; /*para que no se pueda cambiar el tamaño de la caja*/
+}
+
 .boton{
     display: block;
-    background-color: aqua;
+    background-color: rgb(215, 66, 242);
     padding: 15px 60px;
     margin: 30px auto;
     cursor: pointer;
@@ -318,7 +377,7 @@ header nav a:hover {
 }
 
 .boton:hover{
-    background-color: rgb(105, 241, 105);
+    background-color: rgb(248, 133, 236);
     transform: scale(1.05);
 }
 
@@ -326,8 +385,24 @@ header nav a:hover {
 footer { 
     text-align: center;
     padding: 20px;
-    background-color: #e5e3e3;
+    background-color: rgb(251, 179, 244);
     margin-top: 50px;
     box-shadow: 2px 4px 15px 0 rgba(147, 237, 164, 0.2);
     line-height: 1.5;/*interlineado*/
+    
+    
+}    
+
+footer a{
+    text-decoration: none;
+    color: #000;
+    line-height: 2;
+    padding-right:20px ;
+}
+
+footer a:hover {
+    color: rgb(213, 102, 244);
+}
+
+
 }
