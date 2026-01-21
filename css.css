@@ -13,7 +13,7 @@
 
 
 header nav {
-    background-color: #e5e3e3;
+    background-color: #eae6e6;
     margin: 30px 20px 20px 20px; 
     padding: 20px 40px;
     border-radius: 50px;
@@ -26,9 +26,17 @@ header nav {
 
 header nav a {
     text-decoration: none; 
-    color: black; 
+    color: rgb(4, 4, 4);     
+    padding: 10px;
+    border-radius: 15px;
     
 }
+header nav a:hover {
+    background-color: rgb(213, 102, 244);
+    transform: scale(1);
+    
+}
+
 
 .principalContainer {
     display: flex;
@@ -69,9 +77,10 @@ header nav a {
     
     margin: 0 5px 5px 150px ;
     
-    flex-direction: column;
+    flex-direction: column; 
 
 }
+
 
 .parrafo1 {
     padding: 5px 0px 20px 12px ;
